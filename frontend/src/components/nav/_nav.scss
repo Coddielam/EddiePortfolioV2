@@ -1,0 +1,26 @@
+@import '../../animations';
+
+#left-corner-nav-button {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 25px;
+    left: 25px;
+
+    svg {
+        width: 100%;
+        height: 100%;
+    }
+    svg.inactive {
+        animation: spin-back;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    svg.active {
+        animation: spin backwards;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+    }
+    
+    
+}
